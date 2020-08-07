@@ -13,6 +13,7 @@ end
 
 def move(board,position_string,x_or_o="X")
   display_board(board)
+  puts("position string is #{position_string} and index is #{input_to_index(position_string)}")
   board[input_to_index(position_string)] = x_or_o
   display_board(board)
 end
