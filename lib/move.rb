@@ -10,3 +10,6 @@ end
 def input_to_index(position_string)
   position_string.to_i - 1
 end
+
+def move
+end
