@@ -8,5 +8,5 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(position_string)
-  position_string.to_i
+  position_string.to_i - 1
 end
