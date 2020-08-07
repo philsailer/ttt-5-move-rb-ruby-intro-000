@@ -11,5 +11,5 @@ def input_to_index(position_string)
   position_string.to_i - 1
 end
 
-def move(board,position_string,x_or_o=" ")
+def move(board,position_string,x_or_o="X")
 end
